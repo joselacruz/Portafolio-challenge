@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+
+:root{
+--grey-primary: #4F4F4F;
+--grey-secondary: #828282;
+--blackgrey:#333333;
+--blue-background: #2F80ED;
+}
+img{
+    width: 100%;
+}
+
+main{
+    font-family: 'Montserrat', sans-serif;
+}
+.main-profile{
+    width: 85%;
+    max-width: 348px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    padding: 14px;
+    margin-block-start: 20px;
+    border-radius: 12px;
+    border-width: 50%;
+    box-shadow: 0 4px 2px -3px var(--grey-secondary);
+}
+
+
+.main-profile figure img{
+    border-radius: 12px;
+}
+.profile-data{
+    margin-block-start: 10px;
+}
+.profile-data p:nth-child(1){
+ color: var(--grey-primary);
+ font-weight: 600;
+ font-size: 2rem;
+ line-height: 2.5rem;
+
+}
+.profile-data p:nth-child(2){
+color: var(--grey-secondary);
+font-weight: 500;
+font-size: 1.4rem;
+line-height: 1.9rem;
+
+}
+.profile-contact{
+    margin-block-start: 10px;
+    color: var(--grey-primary);
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    
+
+}
+.profile-contact span{
+    font-size: 1.4rem;
+    vertical-align: bottom;
+    margin-inline-end: 5px;
+
+}
+.profile-contact p{
+    display: inline-block;
+    width:  90%;
+}
+
+.profile-bio{
+    margin-block-start: 10px;
+    color: var(--grey-secondary);
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+
+.about-me-skills{
+    width: 85%;
+    max-width: 400px;
+    border-radius: 12px;
+    margin:  0 auto;
+    margin-block-start: 20px;
+    background-color: #FFFFFF;;
+    padding: 20px;
+    box-shadow: 0 4px 2px -3px var(--grey-secondary);
+}
+.about-me-skills h2{
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: var(--grey-primary);
+}
+.about-me-skills .skills-file p {
+font-weight: 500;
+font-size: 1.2rem;
+line-height: 1.7rem;
+color: var(--grey-primary);
+
+}
+.skills-file {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block-start: 17px;
+}
+.skills-file .skill-percentage-container {
+    width: 60%;
+    height: 10px;
+    background: #C4C4C4;
+    border-radius: 12px;
+    
+}
+.skill-percentage-container .load-percentage{
+    display: inline-block;
+    height: 100%;
+    background-color: var(--blue-background);
+    border-radius: 12px;
+}
+.about-me-skills .skills-file:nth-child(2)  .load-percentage{
+    width: 70%;
+}
+.about-me-skills .skills-file:nth-child(3)  .load-percentage{
+    width: 85%;
+}
+.about-me-skills .skills-file:nth-child(4)  .load-percentage{
+    width: 92%;
+}
+.about-me-skills .skills-file:nth-child(5)  .load-percentage{
+    width: 65%;
+}
+.about-me-skills .skills-file:nth-child(6)  .load-percentage{
+    width: 85%;
+}
+.about-me-skills .skills-file:nth-child(7)  .load-percentage{
+    width: 92%;
+}
+
+.about-me-blog{
+    width: 85%;
+    max-width: 590px;
+    background: #FFFFFF;
+    margin: 0 auto; 
+    margin-block-start: 20px;
+    border-radius: 12px;
+    padding-inline-start: 20px;
+    padding-block-start: 20px;
+    padding-block-end: 20px;
+    box-shadow: 0 4px 2px -3px var(--grey-secondary);
+}
+.about-me-blog p:nth-child(1){
+font-weight: 500;
+font-size: 1.2rem;
+line-height: 1.7rem;
+color: #E0E0E0;
+}
+.about-me-blog h2{
+    color:var(--grey-secondary);
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    width: 142px;
+}
+.head-blog .blog-img {
+    margin-block-start: 25px;
+    width: 215px;
+    height: 162px;
+    background-color: #333333;
+    background-image: url("../src/img/advice_2440-480w.jpg");
+    background-size: cover;
+    border-radius: 12px;
+
+}
+.about-me-blog p:nth-child(3){
+width: 80%;
+font-weight: 500;
+font-size: 1.2rem;
+line-height: 1.7rem;
+color: var(--grey-secondary);
+margin-block-start: 50px;
+margin-block-end: 30px;
+}
+.about-me-blog a{
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: var(--blue-background);
+}
+
+.about-me-hobbies {
+    width: 85%;
+    max-width: 400px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-block-start:40px;
+    padding: 22px;
+    box-shadow: 0 4px 2px -3px var(--grey-secondary);
+}
+.about-me-hobbies h2{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: var(--grey-primary);
+}
+.about-me-hobbies div{
+    width: 100%;
+    height: 16vh;
+    margin-block-start: 20px;
+    border-radius: 12px;
+    background-size: cover;
+}
+
+
+.about-me-hobbies h3{
+    margin-block-start: 15px;
+    margin-block-end: 10px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: var(--blackgrey);
+}
+.about-me-hobbies p{
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: var(--grey-secondary); 
+}
+.about-me-hobbies div:nth-child(2){
+    background-image: url("../src/img/gamming.webp");
+}
+.about-me-hobbies div:nth-child(5){
+    background-image: url("../src/img/cooking.jpg");
+}
+.about-me-hobbies div:nth-child(8){
+    background-image: url("../src/img/skin-sun-protection-9x6-1-768x512.jpg");
+    background-position: center;
+}
+.about-me-experiences{
+    width: 85%;
+    max-width: 590px;
+    background: #FFFFFF;
+    margin: 0 auto; 
+    padding: 20px;
+    margin-block-start: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 2px -3px var(--grey-secondary);
+}
+
+.experiences-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 13px;
+    align-items: center;
+}
+.about-me-experiences h2{
+    color: var(--grey-primary);
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-block-end: 40px;
+}
+.about-me-experiences .experiences-card-logo{
+    width: 70px;
+    height: 46px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.about-me-experiences .experiences-card-logo:nth-child(1){
+    background-image: url("../src/icon/pngwing.com\ \(1\).png");
+}
+.about-me-experiences .experiences-card-logo:nth-child(3){
+    background-image: url("../src/icon/hm-logo-1\ \(1\).png");
+}
+
+.experiences-card-info{
+    margin-block-start: 9px;
+    margin-block-end: 29px;
+    width: 70%;
+    
+}
+.experiences-card-info small{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: var(--grey-secondary);
+
+}
+.experiences-card-info p:nth-child(2){
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: var(--blackgrey);
+    margin-block-start: 10px;
+}
+.experiences-card-info p:nth-child(3){
+    margin-block-start: 22px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color:var(--grey-secondary)
+}
+
+.projects-head{
+    width: 85%;
+    max-width: 1046px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-block-start: 40px;
+    padding:  20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 2px -3px var(--grey-secondary);
+}
+.main-projects .projects-head span{
+    color: var(--grey-primary);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    display: inline-block;
+    margin-block-end: 24px;
+}
+.projects-head .projects-head-buttons{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+.projects-head .projects-head-buttons button {
+    width: 85px;
+    height: 33px;
+    border: none;
+    outline: none;
+    border: 1px solid 
+    #4F4F4F;
+    border-radius: 12px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+.projects-head .projects-head-buttons button:nth-child(1),
+.projects-head .projects-head-buttons button:nth-child(2){
+color: var(--grey-primary);
+}
+
+.projects-card-container{
+ width: 85%; 
+    max-width: 1046px;
+    height: 472px;
+    margin: 0 auto;
+    margin-block-start: 17px;
+    /* padding:  20px; */
+    border-radius: 12px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.projects-head .projects-head-buttons button:nth-child(3){
+    background-color: var(--blue-background);
+    color: #FFFFFF;
+    border: none;
+    }
+.main-projects .projects-card-container .projects-card {
+        width: 239px;
+        background: #FFFFFF;
+        padding: 15px;
+        border-radius: 12px;
+        display: inline-block;
+        margin-inline-end: 8px;
+        box-shadow: 0 4px 2px -3px var(--grey-secondary);
+
+    }
+    .projects-card-container .projects-card figure {
+       width: 100%;
+
+    }
+    .card-info span,    .card-info p{
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: var(--grey-primary);
+    margin-block-end: 40px;
+    white-space: normal;
+    }
+    
+    .card-info h3{
+   color: var(--blackgrey);
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-block-start: 20px;
+    margin-block-end: 18px;
+    }
+    .card-info button{
+        width: 75px;
+        height: 35px;
+        border: none;
+        outline: none;
+        border-radius: 12px;
+        font-family: 'Montserrat';
+       font-style: normal;
+       font-weight: 500;
+      font-size: 1.4rem;
+       line-height: 1.9rem;
+      
+    }
+
+    .card-info .card-info-buttonDemo{
+        background-color: var(--blue-background);
+        color: #FFFFFF;
+        margin-inline-end: 11px;
+    }
+    .card-info .card-info-buttonCode{
+        border: 1px solid #2F80ED;
+        color: var(--blue-background);
+    }
+
+    footer p{
+        margin-block-start: 200px;
+        margin-block-end: 20px;
+        text-align: center;
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 1.4rem;
+line-height: 1.7rem;
+color: var(--grey-secondary);
+    }
