@@ -18,6 +18,14 @@ body{
 --grey-secondary: #828282;
 --blackgrey:#333333;
 --blue-background: #2F80ED;
+--font-big: 2rem;
+--line-bing: 2.5rem;
+--font-medium: 1.4rem;
+--line-medim:1.9rem;
+--font-normal: 1.2rem;
+--line-normal:1.7rem;
+--font-small: 1rem;
+--line-small:1.4rem; 
 }
 img{
     width: 100%;
@@ -48,27 +56,27 @@ main{
 .profile-data p:nth-child(1){
  color: var(--grey-primary);
  font-weight: 600;
- font-size: 2rem;
- line-height: 2.5rem;
+ font-size: var(--font-big);
+ line-height: var(--line-bing)
 
 }
 .profile-data p:nth-child(2){
 color: var(--grey-secondary);
 font-weight: 500;
-font-size: 1.4rem;
-line-height: 1.9rem;
+font-size: var(--font-medium);
+line-height: var(--line-medim);
 
 }
 .profile-contact{
     margin-block-start: 10px;
     color: var(--grey-primary);
-    font-size: 1.4rem;
-    line-height: 1.9rem;
+    font-size: var(--font-medium);
+    line-height: var(--line-medim)
     
 
 }
 .profile-contact span{
-    font-size: 1.4rem;
+    font-size: var(--font-medium);
     vertical-align: bottom;
     margin-inline-end: 5px;
 
@@ -81,8 +89,8 @@ line-height: 1.9rem;
 .profile-bio{
     margin-block-start: 10px;
     color: var(--grey-secondary);
-    font-size: 1.4rem;
-    line-height: 1.9rem;
+    font-size: var(--font-medium);
+    line-height: var(--line-medim);
 }
 
 .about-me-skills{
@@ -97,14 +105,14 @@ line-height: 1.9rem;
 }
 .about-me-skills h2{
     font-weight: 700;
-    font-size: 1.4rem;
-    line-height: 1.9rem;
+    font-size: var(--font-medium);
+    line-height: var(--line-medim);
     color: var(--grey-primary);
 }
 .about-me-skills .skills-file p {
 font-weight: 500;
-font-size: 1.2rem;
-line-height: 1.7rem;
+font-size: var(--font-normal);
+line-height: var(--line-normal);
 color: var(--grey-primary);
 
 }
@@ -160,15 +168,15 @@ color: var(--grey-primary);
 }
 .about-me-blog p:nth-child(1){
 font-weight: 500;
-font-size: 1.2rem;
-line-height: 1.7rem;
+font-size: var(--font-normal);
+line-height: var(--line-normal);
 color: #E0E0E0;
 }
 .about-me-blog h2{
     color:var(--grey-secondary);
     font-weight: 600;
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: var(--font-big);
+    line-height: var(--line-bing);
     width: 142px;
 }
 .head-blog .blog-img {
@@ -184,16 +192,16 @@ color: #E0E0E0;
 .about-me-blog p:nth-child(3){
 width: 80%;
 font-weight: 500;
-font-size: 1.2rem;
-line-height: 1.7rem;
+font-size: var(--font-normal);
+line-height: var(--line-normal);
 color: var(--grey-secondary);
 margin-block-start: 50px;
 margin-block-end: 30px;
 }
 .about-me-blog a{
     font-weight: 500;
-    font-size: 1.2rem;
-    line-height: 1.7rem;
+    font-size: var(--font-normal);
+    line-height: var(--line-normal);
     color: var(--blue-background);
 }
 
@@ -209,8 +217,8 @@ margin-block-end: 30px;
 }
 .about-me-hobbies h2{
     font-weight: 500;
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: var(--font-big);
+    line-height: var(--line-bing);
     color: var(--grey-primary);
 }
 .about-me-hobbies div{
@@ -226,14 +234,14 @@ margin-block-end: 30px;
     margin-block-start: 15px;
     margin-block-end: 10px;
     font-weight: 600;
-    font-size: 1.4rem;
-    line-height: 1.9rem;
+    font-size: var(--font-medium);
+    line-height: var(--line-medim);
     color: var(--blackgrey);
 }
 .about-me-hobbies p{
     font-weight: 500;
-    font-size: 1.2rem;
-    line-height: 1.7rem;
+    font-size: var(--font-normal);
+    line-height: var(--line-normal);
     color: var(--grey-secondary); 
 }
 .about-me-hobbies div:nth-child(2){
@@ -267,8 +275,8 @@ margin-block-end: 30px;
 .about-me-experiences h2{
     color: var(--grey-primary);
     font-weight: 500;
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: var(--font-big);
+    line-height: var(--line-bing);
     margin-block-end: 40px;
 }
 .about-me-experiences .experiences-card-logo{
@@ -293,23 +301,23 @@ margin-block-end: 30px;
 }
 .experiences-card-info small{
     font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.4rem;
+    font-size: var(--font-small);
+    line-height: var(--line-small);
     color: var(--grey-secondary);
 
 }
 .experiences-card-info p:nth-child(2){
     font-weight: 600;
-    font-size: 1.2rem;
-    line-height: 1.7rem;
+    font-size: var(--font-normal);
+    line-height: var(--line-normal);
     color: var(--blackgrey);
     margin-block-start: 10px;
 }
 .experiences-card-info p:nth-child(3){
     margin-block-start: 22px;
     font-weight: 500;
-    font-size: 1.2rem;
-    line-height: 1.7rem;
+    font-size: var(--font-normal);
+    line-height:var(--line-normal);
     color:var(--grey-secondary)
 }
 
@@ -326,8 +334,8 @@ margin-block-end: 30px;
 .main-projects .projects-head span{
     color: var(--grey-primary);
     font-weight: 500;
-    font-size: 1.4rem;
-    line-height: 1.9rem;
+    font-size: var(--font-medium);
+    line-height: var(--line-medim);
     display: inline-block;
     margin-block-end: 24px;
 }
@@ -346,8 +354,8 @@ margin-block-end: 30px;
     border-radius: 12px;
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.4rem;
+    font-size: var(--font-small);
+    line-height: var(--line-small);
 }
 .projects-head .projects-head-buttons button:nth-child(1),
 .projects-head .projects-head-buttons button:nth-child(2){
@@ -357,7 +365,7 @@ color: var(--grey-primary);
 .projects-card-container{
  width: 85%; 
     max-width: 1046px;
-    height: 472px;
+    height: 434px;
     margin: 0 auto;
     margin-block-start: 17px;
     /* padding:  20px; */
@@ -383,12 +391,23 @@ color: var(--grey-primary);
     }
     .projects-card-container .projects-card figure {
        width: 100%;
+       height: 134px;
 
+    }
+    .projects-card-container .projects-card figure  img{
+        border-radius: 12px;
+        object-fit: cover;
+        object-position: top;
+        height: 100%;
+ 
+     }
+     .card-info{
+        margin-block-start: 18px;
     }
     .card-info span,    .card-info p{
     font-weight: 500;
-    font-size: 1.2rem;
-    line-height: 1.7rem;
+    font-size: var(--font-normal);
+    line-height: var(--line-normal);
     color: var(--grey-primary);
     margin-block-end: 40px;
     white-space: normal;
@@ -397,32 +416,41 @@ color: var(--grey-primary);
     .card-info h3{
    color: var(--blackgrey);
     font-weight: 500;
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: var(--font-big);
+    line-height: var(--line-bing);
     margin-block-start: 20px;
     margin-block-end: 18px;
     }
     .card-info button{
-        width: 75px;
-        height: 35px;
+        width: 97px;
+        height: 32px;
         border: none;
         outline: none;
         border-radius: 12px;
         font-family: 'Montserrat';
        font-style: normal;
        font-weight: 500;
-      font-size: 1.4rem;
-       line-height: 1.9rem;
-      
+      font-size: var(--font-medium);
+       line-height: var(--line-medim);
     }
-
-    .card-info .card-info-buttonDemo{
+    .card-info button a{
+        text-decoration: none;
+    }
+    .card-info .card-info-buttonDemo {
         background-color: var(--blue-background);
         color: #FFFFFF;
-        margin-inline-end: 11px;
+        margin-inline-end: 5px;
+        text-decoration: none;
+    }
+    .card-info .card-info-buttonDemo a {
+        color: #FFFFFF;
     }
     .card-info .card-info-buttonCode{
         border: 1px solid #2F80ED;
+        color: var(--blue-background);
+        background: transparent;
+    }
+    .card-info .card-info-buttonCode a{
         color: var(--blue-background);
     }
 
@@ -433,7 +461,10 @@ color: var(--grey-primary);
         font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
-font-size: 1.4rem;
-line-height: 1.7rem;
+font-size: var(--font-normal);
+line-height: var(--line-normal);
 color: var(--grey-secondary);
+    }
+    .projects-card-pagination{
+        display: none;
     }

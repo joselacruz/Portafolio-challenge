@@ -1,0 +1,170 @@
+:root{
+    --font-big: 2.4rem;
+    --line-bing: 2.9rem;
+    --font-medium: 1.8rem;
+    --line-medim:2.2rem;
+    --font-normal: 1.6rem;
+    --line-normal:1.9rem;
+    --font-small: 1.4rem;
+    --line-small:1.7rem; 
+    }
+
+
+main{
+    display: grid;
+    justify-content: center;
+}
+.grilla{
+    width: 967px;
+}
+.main-profile{
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: max-content auto auto;
+    grid-template-rows: repeat(3,52px);
+    gap: 23px;
+}
+
+.main-profile figure{
+    width: 200px;
+}
+.profile-bio{
+    grid-column: 2/4;
+    width: 92%
+}
+.profile-contact{
+    width: 282px;
+    justify-self: flex-end;
+}
+.profile-data,.profile-contact{
+    margin: 0;
+}
+
+.main-about-me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    margin-block-start: 40px;
+    height: 1026px;
+}
+.about-me-skills{
+    height: 286px;
+    margin: 0;
+}
+
+
+.about-me-blog{
+    margin:  0;
+    width: 542px;
+    margin-block-start: 0px;
+    margin-block-end: 40px;
+}
+
+.about-me-hobbies{
+    margin: 0;
+    position: relative;
+    top: -198px;
+}
+
+.about-me-experiences{
+    margin: 0;
+   width: 542px;
+    height: 482px;
+}
+.head-blog{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me-blog h2{
+    width: 181px;
+}
+.head-blog .blog-img{
+    width: 323px;
+    height: 210px;
+    margin-block-start: 0px;
+}
+.about-me-hobbies div{
+    height: 117px;
+}
+.projects-head{
+    width: 100%;
+}
+.projects-card-container{
+    width: 100%;
+    margin-block-start: 36px;
+}
+.main-projects .projects-card-container .projects-card{
+    width: 310px;
+}
+.projects-card-container{
+    height: 544px;
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: normal;
+}
+.projects-card-container .projects-card figure {
+    margin-inline-end: 18px;
+    height: 205px;
+
+ }
+ .card-info button{
+    width: 130px;
+    height: 39px;
+    cursor: pointer;
+ }
+ .projects-card-container .projects-card figure  img{
+    object-fit: cover;
+    height: 100%;
+}
+.card-info .card-info-buttonDemo{
+    background-color: var(--blue-background);
+    color: #FFFFFF;
+    margin-inline-end: 9px;
+}
+
+.projects-head .projects-head-buttons button{
+    cursor: pointer;
+}
+
+.projects-card-pagination{
+ width: 100%;
+ margin-block-start: 16px;
+ display: flex;
+ gap: 12px;
+ justify-content: flex-end;
+}
+.projects-card-pagination .button-pagination{
+width: 36px;
+height: 36px;
+border: 1px solid #4F4F4F;
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 1.2rem;
+line-height: 1.4rem;
+color: #4F4F4F;
+cursor: pointer;
+}
+
+.projects-card-pagination .button__dotted{
+    border: none;
+}
+
+.projects-card-pagination .button-pagination:nth-child(3){
+    background-color: #2F80ED;
+    color: #FFFFFF;
+    border: none;
+}
+.projects-card-pagination .button-pagination:hover{
+  background-color: #2F80ED;
+  border: none;
+  color: #FFFFFF;
+}
+.card-info button a:hover{
+    color: black;
+}
