@@ -468,3 +468,10 @@ color: var(--grey-secondary);
     .projects-card-pagination{
         display: none;
     }
+
+    .visible{
+        display: block;
+    }
+    .main-projects .projects-card-container .hidden{
+        display: none;
+    }
