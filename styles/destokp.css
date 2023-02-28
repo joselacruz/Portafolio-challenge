@@ -97,13 +97,15 @@ main{
 }
 .main-projects .projects-card-container .projects-card{
     width: 310px;
+    margin-block-end: 30px;
 }
 .projects-card-container{
-    height: 544px;
-    overflow-x: auto;
-    overflow-y: auto;
-    white-space: normal;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
+
 .projects-card-container .projects-card figure {
     margin-inline-end: 18px;
     height: 205px;
@@ -126,6 +128,72 @@ main{
 
 .projects-head .projects-head-buttons button{
     cursor: pointer;
+    
+}
+.projects-card{
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+}
+.main-projects .projects-card-container .projects-card{
+    padding: 5px;
+}
+.projects-card .card-info{
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    margin: 0;
+    padding-block-start: 18px;
+    padding-inline-start: 10px;
+    padding-block-end: 15px;
+}
+.projects-card-container .projects-card figure{
+    position: relative;
+    background: white;
+    padding: 10px;
+}
+.projects-card::before{
+    content: "";
+    position: absolute;
+    height: 120%;
+    width: 200%;
+    top: -40px;
+    left: -140px;
+    background-image: conic-gradient(#dad4d4 20deg, transparent 120deg);
+    animation: rotar 3s linear infinite;
+    opacity: 0;
+}
+.projects-card:hover{
+    transform: scale(0.95);
+    transition: all 600ms;
+}
+ .projects-card:hover::before{
+    opacity: 1;
+}
+@keyframes rotar{
+    from{
+     transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+.projects-head .projects-head-buttons button span{
+    position: absolute;
+    z-index: 1;
+    background-color: #efefef;
+}
+/* .projects-card::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background-color: #efefef;
+}  */
+.projects-head .projects-head-buttons button:hover{
+box-shadow: 2px 1px 10px black;
+transition: all 300ms;
+    
 }
 
 .projects-card-pagination{
@@ -155,7 +223,7 @@ cursor: pointer;
     border: none;
 }
 
-.projects-card-pagination .button-pagination:nth-child(3){
+.projects-card-pagination .active{
     background-color: #2F80ED;
     color: #FFFFFF;
     border: none;
@@ -164,7 +232,14 @@ cursor: pointer;
   background-color: #2F80ED;
   border: none;
   color: #FFFFFF;
+  box-shadow: 2px 1px 10px black;
+transition: all 300ms;
 }
 .card-info button a:hover{
     color: black;
+}
+.card-info button:hover{
+    border: none;
+    box-shadow: 2px 1px 10px black;
+transition: all 300ms;
 }
