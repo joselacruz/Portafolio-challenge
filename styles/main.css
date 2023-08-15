@@ -29,6 +29,8 @@ body{
 }
 img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 main{
@@ -136,7 +138,7 @@ color: var(--grey-primary);
     border-radius: 12px;
 }
 .about-me-skills .skills-file:nth-child(2)  .load-percentage{
-    width: 70%;
+    width: 65%;
 }
 .about-me-skills .skills-file:nth-child(3)  .load-percentage{
     width: 85%;
@@ -145,13 +147,7 @@ color: var(--grey-primary);
     width: 92%;
 }
 .about-me-skills .skills-file:nth-child(5)  .load-percentage{
-    width: 65%;
-}
-.about-me-skills .skills-file:nth-child(6)  .load-percentage{
-    width: 85%;
-}
-.about-me-skills .skills-file:nth-child(7)  .load-percentage{
-    width: 92%;
+    width: 98%;
 }
 
 .about-me-blog{
@@ -265,13 +261,7 @@ margin-block-end: 30px;
     box-shadow: 0 4px 2px -3px var(--grey-secondary);
 }
 
-.experiences-card-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 13px;
-    align-items: center;
-}
+
 .about-me-experiences h2{
     color: var(--grey-primary);
     font-weight: 500;
@@ -279,46 +269,24 @@ margin-block-end: 30px;
     line-height: var(--line-bing);
     margin-block-end: 40px;
 }
-.about-me-experiences .experiences-card-logo{
-    width: 70px;
-    height: 46px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 
-.about-me-experiences .experiences-card-logo:nth-child(1){
-    background-image: url("../src/icon/pngwing.com\ \(1\).png");
-}
-.about-me-experiences .experiences-card-logo:nth-child(3){
-    background-image: url("../src/icon/hm-logo-1\ \(1\).png");
-}
-
-.experiences-card-info{
-    margin-block-start: 9px;
-    margin-block-end: 29px;
-    width: 70%;
-    
-}
-.experiences-card-info small{
+.course{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
     font-weight: 500;
-    font-size: var(--font-small);
-    line-height: var(--line-small);
-    color: var(--grey-secondary);
-
-}
-.experiences-card-info p:nth-child(2){
-    font-weight: 600;
     font-size: var(--font-normal);
     line-height: var(--line-normal);
-    color: var(--blackgrey);
-    margin-block-start: 10px;
+    margin-bottom: 3px;
 }
-.experiences-card-info p:nth-child(3){
-    margin-block-start: 22px;
-    font-weight: 500;
-    font-size: var(--font-normal);
-    line-height:var(--line-normal);
-    color:var(--grey-secondary)
+.course-img{
+    width: 40px;
+}
+.course-title{
+    color: var(--grey-secondary);
+    max-width: 33%;
+    text-align: center;
 }
 
 .projects-head{
@@ -345,7 +313,7 @@ margin-block-end: 30px;
     gap: 10px;
 }
 .projects-head .projects-head-buttons button {
-    width: 85px;
+    min-width: 85px;
     height: 33px;
     border: none;
     outline: none;
@@ -415,7 +383,10 @@ margin-block-end: 30px;
     margin-block-end: 40px;
     white-space: normal;
     }
-    
+    .card-info p {
+        height: 94px;
+    }
+
     .card-info h3{
    color: var(--blackgrey);
     font-weight: 500;

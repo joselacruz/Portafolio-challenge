@@ -27,6 +27,7 @@ main{
 
 .main-profile figure{
     width: 200px;
+    height: 200px;
 }
 .profile-bio{
     grid-column: 2/4;
@@ -49,7 +50,7 @@ main{
     height: 1026px;
 }
 .about-me-skills{
-    height: 286px;
+    height: 246px;
     margin: 0;
 }
 
@@ -96,7 +97,7 @@ main{
     margin-block-start: 36px;
 }
 .main-projects .projects-card-container .projects-card{
-    width: 310px;
+    width: 314px;
     margin-block-end: 30px;
 }
 .projects-card-container{
