@@ -396,7 +396,8 @@ margin-block-end: 30px;
     margin-block-end: 18px;
     }
     .card-info button{
-        width: 97px;
+        min-width: 97px;
+        padding: 0 5px;
         height: 32px;
         border: none;
         outline: none;

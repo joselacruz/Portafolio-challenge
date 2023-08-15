@@ -113,7 +113,7 @@ main{
 
  }
  .card-info button{
-    width: 130px;
+    min-width: 130px;
     height: 39px;
     cursor: pointer;
  }
