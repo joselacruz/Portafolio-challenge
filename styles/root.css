@@ -1,0 +1,14 @@
+:root{
+    --grey-primary: #4F4F4F;
+    --grey-secondary: #828282;
+    --blackgrey:#333333;
+    --blue-background: #2F80ED;
+    --font-big: 2rem;
+    --line-bing: 2.5rem;
+    --font-medium: 1.4rem;
+    --line-medim:1.9rem;
+    --font-normal: 1.2rem;
+    --line-normal:1.7rem;
+    --font-small: 1rem;
+    --line-small:1.4rem; 
+    }

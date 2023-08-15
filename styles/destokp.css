@@ -1,14 +1,4 @@
-:root{
-    --font-big: 2.4rem;
-    --line-bing: 2.9rem;
-    --font-medium: 1.8rem;
-    --line-medim:2.2rem;
-    --font-normal: 1.6rem;
-    --line-normal:1.9rem;
-    --font-small: 1.4rem;
-    --line-small:1.7rem; 
-    }
-
+@import url('./root.css');
 
 main{
     display: grid;
